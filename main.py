@@ -89,7 +89,7 @@ def get_places(latlng, city, zipcode, place_type, n_res, details, strict, verbos
     workbook_file   = base_path / 'data.xlsx'            
 
     # Write excel file
-    df.to_excel(workbook_file) 
+    df.to_excel(workbook_file, index=False) 
 
 def main():
     # Initiate the parser
