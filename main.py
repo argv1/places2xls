@@ -12,8 +12,8 @@
 
 import argparse
 import googlemaps
-from   pathlib import Path
 import pandas as pd
+from   pathlib import Path
 import pgeocode
 import time
 
@@ -90,8 +90,6 @@ def get_places(latlng, city, zipcode, place_type, n_res, details, strict, verbos
 
     # Write excel file
     df.to_excel(workbook_file) 
-
-
 
 def main():
     # Initiate the parser
