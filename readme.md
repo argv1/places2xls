@@ -8,7 +8,7 @@ places2xls helps to extract places using the google places API and store them in
 ## Requirements
 to install the required packages just use:
 ```python
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 
 
