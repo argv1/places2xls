@@ -26,7 +26,7 @@ API_KEY = YOUR-API-KEY
 ## usage
 After you entered the above information, run the main.py with at least the required arguments -t for type of business and -z for zipcode
 
-Usage: main.py -c COUNTRYCODE -z ZIPCODE -t TYPE - n NUMBER_OF_RESULTS -s STRICTLVL -v -d DETAILS
+Usage: main.py -c COUNTRYCODE -z ZIPCODE -t TYPE - n NUMBER_OF_RESULTS -s STRICTLVL -v -d DETAILS<p>
    i.e. main.py -c DE -z 50667 -t restaurant - n 40 -s 2 -v -d "name, formatted_address, website, opening_hours"
 
 Use main.py -h for a list of all options
